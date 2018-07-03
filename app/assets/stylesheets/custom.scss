@@ -60,7 +60,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $gray-light;
 }
 
 p {
@@ -88,13 +88,13 @@ p {
 footer  {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
+  border-top: 1px solid $gray-medium-light;
+  color: $gray-light;
   a {
-  color: #555;
+  color: $gray;
   }
   a:hover {
-  color: #222;
+  color: $gray-darker;
   }
   small {
   float: left;
@@ -186,7 +186,15 @@ input {
   margin-left: 0;
 }
 
-
-
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
 
 
